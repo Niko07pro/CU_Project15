@@ -8,12 +8,12 @@ import io
 API_URL = "https://dataservice.accuweather.com/"
 LOCATION_URL = 'locations/v1/cities/search'
 FORECAST_URL = "forecasts/v1/daily/5day/"
-API_KEY = "2cDOz3Y8vvzDAH7ykGUSftKnYY39NnOA"
-API_LIST = ["3HahSbvk1NMoX58e8JDpUZKfUvAWdXI0",
-            "ROu3533V7EDxZqDAmp3Tu5rJPlmblgZm",
-            "dtjjIkzW3UFhZ7DPp9JCyrqwymRwI2Er",
-            "VTDrArQhYMGAz9edf8YWI7LmZ4YNb1GM",
-            "J9ANH8IbJ72GDDiGsg1H5k4prE7oMxFq"]
+API_KEY = "J9ANH8IbJ72GDDiGsg1H5k4prE7oMxFq"
+API_LIST = ["J9ANH8IbJ72GDDiGsg1H5k4prE7oMxFq",
+            "Ot3MNhWUAGaOHm7ABAGvmsBndksPARaF",
+            "Emw21PScIF1FAIQ0ov3U2dQTZKByKotH",
+            "7k3zLVQdD92Fbr1MvdNzK8tajjcS7SHT",
+            "xb3dV1OkbAhPdHAZWsGbuxuxmNlm1ZSB"]
 for x in API_LIST:
     response = requests.get(
         f"{API_URL}{LOCATION_URL}",
